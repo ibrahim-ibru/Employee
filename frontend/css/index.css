@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.nav{
+    background-color: rgb(35, 34, 34);
+    height: 70px;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .left{
+    height: 100%;
+    width: 70px;
+    background-color: aliceblue;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.left img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.center{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.right{
+    align-content: center;
+    margin-right: 40px;
+}
+
+.right input{
+    height: 25px ;
+    width: 12rem;
+    border-radius: 5px;
+    border: 0;
+}
+
+.right button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 600;
+    background-color: rgb(8, 114, 19);
+    color: aliceblue;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.main-body{
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    background-color: aliceblue;
+}
+.down-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-nav .left{
+    margin-left: 40px;
+}
+
+.card-display{
+    width: 93%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    height: 18rem;
+    width: 11rem;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px 40px;
+    border-radius: 10px;
+}
+
+.profile-img{
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.btn-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.btn-card button{
+    border: 0;
+    padding: 5px 10px;
+    width: 5rem;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.card p{
+        font-size: 14px;
+        color: grey;
+}
