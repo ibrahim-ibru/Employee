@@ -117,3 +117,12 @@ body{
         font-size: 14px;
         color: grey;
 }
+
+.addemployee-main{
+    height: 30rem;
+    width: 40rem;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 5rem;
+    box-shadow: 5px 5px 10px 5px rgb(206, 218, 228);
+}
