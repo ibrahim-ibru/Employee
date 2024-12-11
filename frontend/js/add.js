@@ -13,7 +13,7 @@ document.getElementById("addemployee-form").addEventListener("submit",(event)=>{
     fetch("http://localhost:3000/submit",{
         method: "POST"
         ,headers:{"Content-Type":"text/json"},
-        body:JSON.stringify(data)
+        body:JSON.stringify({name,gender,age,email,phone,address,jobtype,salary})
     })
 
 
