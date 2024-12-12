@@ -118,6 +118,7 @@ const app=http.createServer(async (req,res)=>{
                 address:data.address,
                 phone:data.phone
             }
+            
             await collection.updateOne({_id},{$set:updatedata}).then(()=>{
                 res.writeHead(201,{"Content-Type":"text/json"})
                 res.end("Successfully Updated")
