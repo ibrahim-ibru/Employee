@@ -81,7 +81,6 @@ body{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .card{
@@ -141,13 +140,17 @@ a{
     /* box-shadow: 5px 5px 10px 5px rgb(94, 95, 95); */
 }
 
-table{
+.tableform{
     border-spacing:50px 0;
 }
 
-table input,select,button{
+.tableform input,select,button{
     padding: 5px 30px;
     border: .5px solid black;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+.tablecard{
+    border-spacing: 20px 0;
 }

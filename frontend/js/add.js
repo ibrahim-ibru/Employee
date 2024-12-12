@@ -1,5 +1,5 @@
 document.getElementById("addemployee-form").addEventListener("submit",(event)=>{
-    event.preventDefault()
+    // event.preventDefault()
     const name=document.getElementById("first-name").value+" "+document.getElementById("last-name").value
     const gender = document.querySelector('input[name="gender"]:checked')?.value;
     const age=document.getElementById("age").value
@@ -13,7 +13,7 @@ document.getElementById("addemployee-form").addEventListener("submit",(event)=>{
     fetch("http://localhost:3000/submit",{
         method: "POST"
         ,headers:{"Content-Type":"text/json"},
-        body:JSON.stringify({name,gender,age,email,phone,address,jobtype,salary})
+        body:JSON.stringify(data)
     })
 
 
